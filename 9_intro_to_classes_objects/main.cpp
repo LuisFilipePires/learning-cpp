@@ -20,7 +20,7 @@ int main()
 	//std::cout << account2 << std::endl;
 
 	account2.withdraw(4500);
-	//calling operator << in withdraw function
+	//calling operator << at withdraw function
 	//std::cout << account2 << std::endl;
 
 
