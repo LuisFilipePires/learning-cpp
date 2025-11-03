@@ -35,7 +35,7 @@ Number::Number(double num, double num2)
 Number::~Number()
 {
 	std::cout << "Destructor called for number: " << _number << std::endl;
-	free(_number2);
+	free(_number2); //call destructor
 }
 
 
